@@ -2,10 +2,15 @@
 <html lang="en">
 
 <head>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta name="description" content="Marks Alvin Abuto - Software Engineer Portfolio">
+  <meta name="keywords" content="Marks Abuto, Portfolio, Web Developer, Software Engineer, HTML, CSS, Python">
+  <meta name="author" content="Marks Alvin Abuto">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Services & Interests - Marks Alvin Abuto</title>
+  <title>Services & Interests - Marks Abuto</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 
 <body>
@@ -13,8 +18,8 @@
   <header class="modern-header">
     <div class="header-grid">
       <div class="header-info">
-        <h1>Marks Alvin Abuto</h1>
-        <p>Aspiring Software Engineer & AI/Data Enthusiast</p>
+        <h1 class="fade-in">Marks Abuto</h1>
+        <p class="fade-in">Aspiring Software Engineer & AI/Data Enthusiast</p>
       </div>
       <div class="header-nav">
         <a href="index.html">Home</a>
@@ -22,11 +27,22 @@
         <a href="projects.html">Projects</a>
         <a href="contact.html">Contact</a>
       </div>
+      <div class="header-socials">
+        <a href="https://github.com/marksabuto" target="_blank">
+          <i class="ph ph-github-logo"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/marks-abuto/" target="_blank">
+          <i class="ph ph-linkedin-logo"></i>
+        </a>
+        <a href="https://x.com/marksabuto" target="_blank">
+          <i class="ph ph-twitter-logo"></i>
+        </a>
+      </div>
     </div>
   </header>
 
   <!-- ===== Services Section ===== -->
-  <section id="services">
+  <section id="services" class="fade-up">
     <h2>🛠️ My Services</h2>
     <div class="list-grid">
       <div class="list-item"><strong>🌍 Custom Web Development:</strong> Tailored websites built from scratch to match your brand identity and business objectives.</div>
@@ -39,7 +55,7 @@
   </section>
 
   <!-- ===== Interests Section ===== -->
-  <section id="interests">
+  <section id="interests" class="fade-up">
     <h2>✨ My Interests</h2>
     <div class="list-grid">
       <div class="list-item">💡 Software Engineering & Web Development</div>
@@ -51,7 +67,7 @@
   </section>
 
   <!-- ===== Why Hire Me Section ===== -->
-  <section id="why-hire">
+  <section id="why-hire" class="fade-up">
     <h2>💼 Why Hire Me?</h2>
     <div class="list-grid">
       <div class="list-item">✅ <strong>Technical Excellence:</strong> Strong foundation in backend & frontend development, databases, and modern web technologies.</div>
@@ -72,14 +88,31 @@
         <p>📍 Nairobi, Kenya</p>
       </div>
       <div class="footer-socials">
-        <a href="https://www.linkedin.com/in/marks-abuto/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
-        <a href="https://github.com/marksabuto" target="_blank"><img src="images/github.png" alt="GitHub"></a>
-        <a href="https://x.com/marksabuto" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
-        <a href="https://marksabuto.netlify.app" target="_blank"><img src="images/portfolio.png" alt="Portfolio"></a>
+        <a href="https://github.com/marksabuto" target="_blank">
+          <i class="ph ph-github-logo"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/marks-abuto/" target="_blank">
+          <i class="ph ph-linkedin-logo"></i>
+        </a>
+        <a href="https://x.com/marksabuto" target="_blank">
+          <i class="ph ph-twitter-logo"></i>
+        </a>
       </div>
     </div>
-    <p>&copy; 2025 Marks Alvin Abuto. All Rights Reserved.</p>
+    <p>&copy; 2025 Marks Abuto. All Rights Reserved.</p>
   </footer>
+
+  <script>
+    // Animation Effects
+    const fadeElements = document.querySelectorAll('.fade-in, .fade-up');
+    window.addEventListener('scroll', () => {
+      fadeElements.forEach(el => {
+        if (el.getBoundingClientRect().top < window.innerHeight) {
+          el.classList.add('visible');
+        }
+      });
+    });
+  </script>
 
 </body>
 

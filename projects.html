@@ -4,8 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Projects - Marks Alvin Abuto</title>
+  <title>My Projects - Marks Abuto</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta name="description" content="Marks Alvin Abuto - Software Engineer Portfolio Projects">
+  <meta name="keywords" content="Marks Abuto, Portfolio, Web Developer, Projects, Python, HTML, CSS">
+  <meta name="author" content="Marks Alvin Abuto">
 </head>
 
 <body>
@@ -13,8 +18,8 @@
   <header class="modern-header">
     <div class="header-grid">
       <div class="header-info">
-        <h1>Marks Alvin Abuto</h1>
-        <p>Aspiring Software Engineer & AI/Data Enthusiast</p>
+        <h1 class="fade-in">Marks Abuto</h1>
+        <p class="fade-in">Aspiring Software Engineer & AI/Data Enthusiast</p>
       </div>
       <div class="header-nav">
         <a href="index.html">Home</a>
@@ -22,34 +27,48 @@
         <a href="projects.html">Projects</a>
         <a href="contact.html">Contact</a>
       </div>
+      <div class="header-socials">
+        <a href="https://github.com/marksabuto" target="_blank">
+          <i class="ph ph-github-logo"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/marks-abuto/" target="_blank">
+          <i class="ph ph-linkedin-logo"></i>
+        </a>
+        <a href="https://x.com/marksabuto" target="_blank">
+          <i class="ph ph-twitter-logo"></i>
+        </a>
+      </div>
     </div>
   </header>
 
   <!-- ===== Projects Section ===== -->
-  <section id="projects">
+  <section id="projects" class="fade-up">
     <h2>📂 My Projects</h2>
     <div class="list-grid">
       <div class="list-item">
-        <strong>🐍 My Python Project:</strong>
-        <p>A simple Python project for learning Git and GitHub.</p>
-        <a href="https://github.com/marksabuto/my-python-project.git" target="_blank">🔗 View Project</a>
+        <strong>🐍 My Python Project</strong> <span>- Python</span>
+        <p>A simple Python project created to practice Git and GitHub fundamentals.</p>
+        <a href="https://github.com/marksabuto/my-python-project.git" target="_blank">📂 Source Code</a>
       </div>
+
       <div class="list-item">
-        <strong>🌐 My HTML Project:</strong>
-        <p>A simple HTML project to learn web development.</p>
-        <a href="https://github.com/marksabuto/my-html-project.git" target="_blank">🔗 View Project</a>
+        <strong>🌐 My HTML Project</strong> <span>- HTML</span>
+        <p>A basic HTML project built to understand the structure of web pages and elements.</p>
+        <a href="https://github.com/marksabuto/my-html-project.git" target="_blank">📂 Source Code</a>
       </div>
+
       <div class="list-item">
-        <strong>📄 My Portfolio Website:</strong>
-        <p>This portfolio website showcasing my skills and projects.</p>
+        <strong>📄 My Portfolio Website</strong> <span>- HTML & CSS</span>
+        <p>This interactive and modern portfolio website showcasing my skills, projects, and services.</p>
         <img src="images/portfolio.jpg" alt="Portfolio Project Preview" style="width:100%; border-radius: 10px; margin: 1rem 0;">
         <a href="https://github.com/marksabuto/My_portfolio_project.git" target="_blank">📂 Source Code</a> | 
         <a href="https://abutomarks.netlify.app/" target="_blank">🌐 Live Demo</a>
       </div>
+
       <div class="list-item">
-        <strong>🎮 Quiz Game Trivia (Collaborator):</strong>
-        <p>A Python-based multiple-choice quiz game that fetches trivia questions from the Open Trivia Database API.</p>
-        <a href="https://github.com/dlakk/quiz-game-triva.git" target="_blank">🔗 View Project</a>
+        <strong>🎮 Quiz Game Trivia</strong> <span>- Python</span>
+        <p>A Python-based multiple-choice quiz game that fetches trivia questions from the Open Trivia Database API. Includes a timer, scoring, and replay functionality. Built as a collaborator.</p>
+        <a href="https://github.com/dlakk/quiz-game-triva.git" target="_blank">📂 Source Code</a>
       </div>
     </div>
   </section>
@@ -64,15 +83,33 @@
         <p>📍 Nairobi, Kenya</p>
       </div>
       <div class="footer-socials">
-        <a href="https://www.linkedin.com/in/marks-abuto/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
-        <a href="https://github.com/marksabuto" target="_blank"><img src="images/github.png" alt="GitHub"></a>
-        <a href="https://x.com/marksabuto" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
-        <a href="https://marksabuto.netlify.app" target="_blank"><img src="images/portfolio.png" alt="Portfolio"></a>
+        <a href="https://github.com/marksabuto" target="_blank">
+          <i class="ph ph-github-logo"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/marks-abuto/" target="_blank">
+          <i class="ph ph-linkedin-logo"></i>
+        </a>
+        <a href="https://x.com/marksabuto" target="_blank">
+          <i class="ph ph-twitter-logo"></i>
+        </a>
       </div>
     </div>
-    <p>&copy; 2025 Marks Alvin Abuto. All Rights Reserved.</p>
+    <p>&copy; 2025 Marks Abuto. All Rights Reserved.</p>
   </footer>
+
+  <script>
+    // Animation Effects
+    const fadeElements = document.querySelectorAll('.fade-in, .fade-up');
+    window.addEventListener('scroll', () => {
+      fadeElements.forEach(el => {
+        if (el.getBoundingClientRect().top < window.innerHeight) {
+          el.classList.add('visible');
+        }
+      });
+    });
+  </script>
 
 </body>
 
 </html>
+
