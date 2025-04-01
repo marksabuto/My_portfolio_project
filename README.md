@@ -1,92 +1,77 @@
-# 🌟 Marks Alvin Abuto - Personal Portfolio
+# 🌐 Marks Alvin Abuto - Personal Portfolio Website
 
-Welcome to my official **Personal Portfolio Website!**  
-This website showcases my skills, projects, services, and ways to connect with me.  
-Built using **HTML & CSS** with modern design, animations, and responsiveness.
-
----
-
-## 🚀 Project Structure
-
-My_portfolio_project/
-├── index.html            → Home Page (About, Education, Skills)
-├── services.html         → Services & Interests + Why Hire Me
-├── projects.html         → Projects Showcase (With languages used)
-├── contact.html          → Contact Form (working with Formspree)
-├── styles.css            → Styling (animations, colors, layout)
-├── favicon.ico           → Website Icon (optional but recommended)
-├── README.md             → Project Documentation
-├── images/               → All images used
-│   ├── linkedin.png      → LinkedIn logo
-│   ├── github.png        → GitHub logo
-│   ├── twitter.png       → Twitter logo
-│   ├── portfolio.png     → Portfolio icon
-│   └── portfolio.jpg     → Project preview image
+Welcome to my official **Portfolio Website!**  
+This website showcases my skills, projects, services, and contact details in an interactive, modern, and mobile-friendly design.
 
 ---
 
-## 🎯 Key Features
+## 🚀 Live Demo
 
-- Multi-page, clean, and professional layout
-- Modern design with engaging animations
-- Smooth navigation
-- **Source Code & Live Demo links** in Projects section
-- Working **Contact Form** (Formspree integrated)
-- Clickable round **Social Media Icons** in header & footer
-- Why Hire Me Section
-
----
-
-## 🌐 Live Demo
-
-➡️ **Netlify Live Demo:**  
+🔗 **View Website:**  
 [https://abutomarks.netlify.app/](https://abutomarks.netlify.app/)
 
+📂 **Source Code:**  
+[https://github.com/marksabuto/My_portfolio_project.git](https://github.com/marksabuto/My_portfolio_project.git)
+
 ---
 
-## 📥 Source Code
+## 🗂️ Project Structure
 
-➡️ **GitHub Repository:**  
-[https://github.com/marksabuto/My_portfolio_project.git](https://github.com/marksabuto/My_portfolio_project.git)
+
+My_portfolio_project/
+├── index.html           → Home Page (About, Skills, Education, CTA)
+├── services.html        → Services, Interests & Why Hire Me
+├── projects.html        → Projects Showcase with Tech Stack, Source Code, Demo
+├── contact.html         → Contact Page with Working Form
+├── styles.css           → Global Styles, Animations, Layout
+├── main.js              → JavaScript (Menu, Scroll, Animations)
+├── favicon.ico          → Website Icon (Optional, Recommended)
+├── images/              → Social Icons & Project Image
+│   ├── linkedin.png     → LinkedIn Logo
+│   ├── github.png       → GitHub Logo
+│   ├── twitter.png      → Twitter Logo
+│   ├── portfolio.png    → Portfolio Icon
+│   └── portfolio.jpg    → Portfolio Project Image
+├── .gitignore           → Git Ignore file
+└── README.md            → Project Documentation & Instructions
+
+
+---
+
+## 🎯 Features & Improvements
+
+✅ Clean & Professional UI/UX  
+✅ Mobile-First Responsive Design  
+✅ Smooth Scroll Animations  
+✅ Modern Mobile Navigation  
+✅ Call-To-Action Buttons  
+✅ Working Contact Form (Formspree Integrated)  
+✅ Technology stack labels on all projects  
+✅ SEO optimized meta tags  
+✅ Scroll-to-top button  
+✅ Brand personality storytelling  
+✅ Clear social links & footer navigation  
+✅ Optimized for performance & accessibility
 
 ---
 
 ## 🧰 Technologies Used
 
-- HTML5
-- CSS3
-- Flexbox & Grid Layout
-- Formspree for Contact Form
-- Phosphor Icons
-- Git & GitHub for Version Control
+- **HTML5**
+- **CSS3**
+- **JavaScript (Vanilla)**
+- **Formspree API (Contact Form)**
+- **Phosphor Icons**
 
 ---
 
-## 📄 Portfolio Content
 
-### Home Page
-Includes:
-- About Me
-- Technical Skills
-- Education Background
 
-### Services & Interests
-Details about:
-- Services I Offer
-- My Tech Interests
-- **Why Hire Me?** Section
+📩 Contact Info
+Marks Alvin Abuto
+📧 Email: marksabuto@gmail.com
+📞 Phone: +254 715 341 602
+📍 Nairobi, Kenya
 
-### Projects
-Showcases:
-- Personal and collaborative projects
-- Tech stack used in each project
-- Direct links to Source Code and Live Demo
-
-### Contact
-Includes:
-- Email, Phone, Location
-- Interactive, working Contact Form
-- Clickable social media icons
-
----
-
+⭐ Special Note
+This website was built as part of a learning and professional development journey. Feedback & Collaboration are welcome!
