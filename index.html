@@ -2,15 +2,16 @@
 <html lang="en">
 
 <head>
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <meta name="description" content="Marks Alvin Abuto - Software Engineer Portfolio">
-  <meta name="keywords" content="Marks Abuto, Portfolio, Web Developer, Software Engineer, HTML, CSS, Python">
-  <meta name="author" content="Marks Alvin Abuto">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marks Abuto - Portfolio</title>
+  <title>Marks Alvin Abuto - Software Engineer & AI Enthusiast</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <script src="main.js" defer></script>
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <meta name="description" content="Marks Alvin Abuto - Personal Portfolio of a passionate Software Engineer and AI Enthusiast">
+  <meta name="keywords" content="Marks Abuto, Software Engineer, Portfolio, Web Developer, Python, HTML, CSS, AI Enthusiast">
+  <meta name="author" content="Marks Alvin Abuto">
 </head>
 
 <body>
@@ -19,32 +20,28 @@
     <div class="header-grid">
       <div class="header-info">
         <h1 class="fade-in">Marks Abuto</h1>
-        <p class="fade-in">Aspiring Software Engineer & AI/Data Enthusiast</p>
+        <p class="fade-in">Software Engineer & AI Enthusiast</p>
       </div>
-      <div class="header-nav">
+      <nav class="header-nav" id="navbar">
         <a href="index.html">Home</a>
         <a href="services.html">Services</a>
         <a href="projects.html">Projects</a>
         <a href="contact.html">Contact</a>
-      </div>
+      </nav>
       <div class="header-socials">
-        <a href="https://github.com/marksabuto" target="_blank">
-          <i class="ph ph-github-logo"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/marks-abuto/" target="_blank">
-          <i class="ph ph-linkedin-logo"></i>
-        </a>
-        <a href="https://x.com/marksabuto" target="_blank">
-          <i class="ph ph-twitter-logo"></i>
-        </a>
+        <a href="https://github.com/marksabuto" target="_blank"><i class="ph ph-github-logo"></i></a>
+        <a href="https://www.linkedin.com/in/marks-abuto/" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+        <a href="https://x.com/marksabuto" target="_blank"><i class="ph ph-twitter-logo"></i></a>
       </div>
+      <button id="menu-toggle">☰</button>
     </div>
   </header>
 
   <!-- ===== About Section ===== -->
   <section id="about" class="fade-up">
     <h2>🙋‍♂️ About Me</h2>
-    <p>I am a passionate and versatile Software Engineer in training with a keen interest in AI, data annotation, and web development. I specialize in building functional, scalable, and visually appealing websites while contributing to innovative projects in the AI space. I am driven by curiosity, creativity, and the desire to make technology accessible and impactful.</p>
+    <p>I am a passionate and versatile <strong>Software Engineer</strong> in training with a strong foundation in web development, AI, and data annotation. Currently advancing my skills at Power Learn Project, I specialize in building functional, scalable, and user-friendly digital solutions. My mission is to make technology accessible, impactful, and beautifully designed.</p>
+    <a href="projects.html" class="cta-btn">🚀 View My Projects</a>
   </section>
 
   <!-- ===== Skills Section ===== -->
@@ -57,7 +54,7 @@
       </div>
       <div class="skills-category">
         <h3>Frontend Development</h3>
-        <p>HTML, CSS</p>
+        <p>HTML5, CSS3, JavaScript</p>
       </div>
       <div class="skills-category">
         <h3>Database</h3>
@@ -77,12 +74,22 @@
   <section id="education" class="fade-up">
     <h2>🎓 Education</h2>
     <div class="list-grid">
-      <div class="list-item">📌 Software Engineering - Power Learn Project (Feb 2025 – Present)</div>
+      <div class="list-item">
+        📌 Software Engineering - Power Learn Project (Feb 2025 – Present).  
+        <br><small>Currently enhancing my skills in software development, system design, and programming.</small>
+      </div>
       <div class="list-item">📌 Virtual Assistant Course - ALX Africa (Nov 2024)</div>
       <div class="list-item">📌 AI-Augmented Professional Development Skills - ALX Africa (June 2024)</div>
       <div class="list-item">📌 BSc in Molecular Biology & Forensic Technology - Technical University of Mombasa (2021)</div>
     </div>
     <a href="https://drive.google.com/file/d/1TpUwflUNcFUPzFP6xubMSyVgJArb5ibP/view?usp=sharing" target="_blank">📄 Download My CV</a>
+  </section>
+
+  <!-- ===== Call to Action Section ===== -->
+  <section id="cta" class="fade-up">
+    <h2>👋 Let's Work Together</h2>
+    <p>If you're looking for a motivated, reliable, and creative software engineer, I'm ready to collaborate and bring value to your team or project.</p>
+    <a href="contact.html" class="cta-btn">📨 Contact Me</a>
   </section>
 
   <!-- ===== Footer Section ===== -->
@@ -95,31 +102,23 @@
         <p>📍 Nairobi, Kenya</p>
       </div>
       <div class="footer-socials">
-        <a href="https://github.com/marksabuto" target="_blank">
-          <i class="ph ph-github-logo"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/marks-abuto/" target="_blank">
-          <i class="ph ph-linkedin-logo"></i>
-        </a>
-        <a href="https://x.com/marksabuto" target="_blank">
-          <i class="ph ph-twitter-logo"></i>
-        </a>
+        <a href="https://github.com/marksabuto" target="_blank"><i class="ph ph-github-logo"></i></a>
+        <a href="https://www.linkedin.com/in/marks-abuto/" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+        <a href="https://x.com/marksabuto" target="_blank"><i class="ph ph-twitter-logo"></i></a>
       </div>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="#">Privacy Policy</a>
+      </nav>
     </div>
     <p>&copy; 2025 Marks Abuto. All Rights Reserved.</p>
   </footer>
 
-  <script>
-    // Animation Effects
-    const fadeElements = document.querySelectorAll('.fade-in, .fade-up');
-    window.addEventListener('scroll', () => {
-      fadeElements.forEach(el => {
-        if (el.getBoundingClientRect().top < window.innerHeight) {
-          el.classList.add('visible');
-        }
-      });
-    });
-  </script>
+  <button id="scroll-top">⬆️</button>
+
 </body>
 
 </html>

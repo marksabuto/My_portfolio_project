@@ -1,0 +1,15 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Node and dependency folders (if added in future)
+node_modules/
+
+# Ignore logs
+*.log
+
+# Ignore env files (if you add API keys in future)
+.env
+
+# Ignore VSCode settings
+.vscode/

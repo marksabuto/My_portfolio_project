@@ -2,18 +2,16 @@
 <html lang="en">
 
 <head>
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <meta name="description" content="Marks Alvin Abuto - Software Engineer Portfolio">
-  <meta name="keywords" content="Marks Abuto, Portfolio, Web Developer, Software Engineer, HTML, CSS, Python">
-  <meta name="author" content="Marks Alvin Abuto">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Me - Marks Abuto</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <script src="main.js" defer></script>
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <meta name="description" content="Contact Marks Abuto - Let's collaborate and connect.">
+  <meta name="keywords" content="Contact, Hire, Marks Abuto, Software Engineer, Portfolio, Nairobi">
+  <meta name="author" content="Marks Alvin Abuto">
 </head>
 
 <body>
@@ -22,43 +20,45 @@
     <div class="header-grid">
       <div class="header-info">
         <h1 class="fade-in">Marks Abuto</h1>
-        <p class="fade-in">Aspiring Software Engineer & AI/Data Enthusiast</p>
+        <p class="fade-in">Software Engineer & AI Enthusiast</p>
       </div>
-      <div class="header-nav">
+      <nav class="header-nav" id="navbar">
         <a href="index.html">Home</a>
         <a href="services.html">Services</a>
         <a href="projects.html">Projects</a>
         <a href="contact.html">Contact</a>
-      </div>
+      </nav>
       <div class="header-socials">
-        <a href="https://github.com/marksabuto" target="_blank">
-          <i class="ph ph-github-logo"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/marks-abuto/" target="_blank">
-          <i class="ph ph-linkedin-logo"></i>
-        </a>
-        <a href="https://x.com/marksabuto" target="_blank">
-          <i class="ph ph-twitter-logo"></i>
-        </a>
+        <a href="https://github.com/marksabuto" target="_blank"><i class="ph ph-github-logo"></i></a>
+        <a href="https://www.linkedin.com/in/marks-abuto/" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+        <a href="https://x.com/marksabuto" target="_blank"><i class="ph ph-twitter-logo"></i></a>
       </div>
+      <button id="menu-toggle">☰</button>
     </div>
   </header>
 
   <!-- ===== Contact Section ===== -->
   <section id="contact" class="fade-up">
     <h2>📬 Contact Me</h2>
-    <p>Feel free to reach out to me! I am available for collaboration, projects, or inquiries.</p>
+    <p>I am available for collaborations, projects, or inquiries. Drop me a message and I'll get back to you!</p>
 
     <form action="https://formspree.io/f/xqapdokw" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required><br>
-      <input type="email" name="email" placeholder="Your Email" required><br>
-      <textarea name="message" placeholder="Your Message" required></textarea><br>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
       <button type="submit">📨 Send Message</button>
     </form>
 
     <p style="margin-top: 1rem; font-size: 0.9rem;">
-      *This form is powered by <a href="https://formspree.io" target="_blank">Formspree</a>. Your message will be delivered to my email.
+      *Your message will be delivered to my email via <a href="https://formspree.io" target="_blank">Formspree</a>.
     </p>
+  </section>
+
+  <!-- ===== CTA Section ===== -->
+  <section id="cta" class="fade-up">
+    <h2>🚀 Ready to Collaborate?</h2>
+    <p>I’m excited to work with individuals and teams that value innovation, creativity, and excellence.</p>
+    <a href="projects.html" class="cta-btn">📂 View My Work</a>
   </section>
 
   <!-- ===== Footer Section ===== -->
@@ -71,31 +71,22 @@
         <p>📍 Nairobi, Kenya</p>
       </div>
       <div class="footer-socials">
-        <a href="https://github.com/marksabuto" target="_blank">
-          <i class="ph ph-github-logo"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/marks-abuto/" target="_blank">
-          <i class="ph ph-linkedin-logo"></i>
-        </a>
-        <a href="https://x.com/marksabuto" target="_blank">
-          <i class="ph ph-twitter-logo"></i>
-        </a>
+        <a href="https://github.com/marksabuto" target="_blank"><i class="ph ph-github-logo"></i></a>
+        <a href="https://www.linkedin.com/in/marks-abuto/" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+        <a href="https://x.com/marksabuto" target="_blank"><i class="ph ph-twitter-logo"></i></a>
       </div>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="#">Privacy Policy</a>
+      </nav>
     </div>
     <p>&copy; 2025 Marks Abuto. All Rights Reserved.</p>
   </footer>
 
-  <script>
-    // Animation Effects
-    const fadeElements = document.querySelectorAll('.fade-in, .fade-up');
-    window.addEventListener('scroll', () => {
-      fadeElements.forEach(el => {
-        if (el.getBoundingClientRect().top < window.innerHeight) {
-          el.classList.add('visible');
-        }
-      });
-    });
-  </script>
+  <button id="scroll-top">⬆️</button>
 
 </body>
 

@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Projects - Marks Abuto</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="https://unpkg.com/@phosphor-icons/web"></script>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <meta name="description" content="Marks Alvin Abuto - Software Engineer Portfolio Projects">
-  <meta name="keywords" content="Marks Abuto, Portfolio, Web Developer, Projects, Python, HTML, CSS">
+  <script src="main.js" defer></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <meta name="description" content="Projects by Marks Abuto - Software Engineer and AI Enthusiast">
+  <meta name="keywords" content="Projects, Software Engineer, Python, HTML, CSS, Portfolio, Nairobi">
   <meta name="author" content="Marks Alvin Abuto">
 </head>
 
@@ -19,25 +20,20 @@
     <div class="header-grid">
       <div class="header-info">
         <h1 class="fade-in">Marks Abuto</h1>
-        <p class="fade-in">Aspiring Software Engineer & AI/Data Enthusiast</p>
+        <p class="fade-in">Software Engineer & AI Enthusiast</p>
       </div>
-      <div class="header-nav">
+      <nav class="header-nav" id="navbar">
         <a href="index.html">Home</a>
         <a href="services.html">Services</a>
         <a href="projects.html">Projects</a>
         <a href="contact.html">Contact</a>
-      </div>
+      </nav>
       <div class="header-socials">
-        <a href="https://github.com/marksabuto" target="_blank">
-          <i class="ph ph-github-logo"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/marks-abuto/" target="_blank">
-          <i class="ph ph-linkedin-logo"></i>
-        </a>
-        <a href="https://x.com/marksabuto" target="_blank">
-          <i class="ph ph-twitter-logo"></i>
-        </a>
+        <a href="https://github.com/marksabuto" target="_blank"><i class="ph ph-github-logo"></i></a>
+        <a href="https://www.linkedin.com/in/marks-abuto/" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+        <a href="https://x.com/marksabuto" target="_blank"><i class="ph ph-twitter-logo"></i></a>
       </div>
+      <button id="menu-toggle">☰</button>
     </div>
   </header>
 
@@ -45,21 +41,22 @@
   <section id="projects" class="fade-up">
     <h2>📂 My Projects</h2>
     <div class="list-grid">
+
       <div class="list-item">
         <strong>🐍 My Python Project</strong> <span>- Python</span>
-        <p>A simple Python project created to practice Git and GitHub fundamentals.</p>
+        <p>A simple Python project created to practice Git and GitHub fundamentals and collaborative development.</p>
         <a href="https://github.com/marksabuto/my-python-project.git" target="_blank">📂 Source Code</a>
       </div>
 
       <div class="list-item">
         <strong>🌐 My HTML Project</strong> <span>- HTML</span>
-        <p>A basic HTML project built to understand the structure of web pages and elements.</p>
+        <p>A basic HTML project crafted to learn and master webpage structuring and semantic HTML tags.</p>
         <a href="https://github.com/marksabuto/my-html-project.git" target="_blank">📂 Source Code</a>
       </div>
 
       <div class="list-item">
-        <strong>📄 My Portfolio Website</strong> <span>- HTML & CSS</span>
-        <p>This interactive and modern portfolio website showcasing my skills, projects, and services.</p>
+        <strong>📄 My Portfolio Website</strong> <span>- HTML, CSS, JavaScript</span>
+        <p>A fully interactive, responsive personal portfolio website highlighting my services, skills, and projects.</p>
         <img src="images/portfolio.jpg" alt="Portfolio Project Preview" style="width:100%; border-radius: 10px; margin: 1rem 0;">
         <a href="https://github.com/marksabuto/My_portfolio_project.git" target="_blank">📂 Source Code</a> | 
         <a href="https://abutomarks.netlify.app/" target="_blank">🌐 Live Demo</a>
@@ -67,10 +64,18 @@
 
       <div class="list-item">
         <strong>🎮 Quiz Game Trivia</strong> <span>- Python</span>
-        <p>A Python-based multiple-choice quiz game that fetches trivia questions from the Open Trivia Database API. Includes a timer, scoring, and replay functionality. Built as a collaborator.</p>
+        <p>A collaborative Python-based multiple-choice quiz game fetching trivia questions from the Open Trivia Database API.</p>
         <a href="https://github.com/dlakk/quiz-game-triva.git" target="_blank">📂 Source Code</a>
       </div>
+
     </div>
+  </section>
+
+  <!-- ===== CTA Section ===== -->
+  <section id="cta" class="fade-up">
+    <h2>🚀 Let's Build Together</h2>
+    <p>I'm always open to new projects, collaborations, or exciting career opportunities. Let's create something amazing!</p>
+    <a href="contact.html" class="cta-btn">📨 Get in Touch</a>
   </section>
 
   <!-- ===== Footer Section ===== -->
@@ -83,33 +88,24 @@
         <p>📍 Nairobi, Kenya</p>
       </div>
       <div class="footer-socials">
-        <a href="https://github.com/marksabuto" target="_blank">
-          <i class="ph ph-github-logo"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/marks-abuto/" target="_blank">
-          <i class="ph ph-linkedin-logo"></i>
-        </a>
-        <a href="https://x.com/marksabuto" target="_blank">
-          <i class="ph ph-twitter-logo"></i>
-        </a>
+        <a href="https://github.com/marksabuto" target="_blank"><i class="ph ph-github-logo"></i></a>
+        <a href="https://www.linkedin.com/in/marks-abuto/" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+        <a href="https://x.com/marksabuto" target="_blank"><i class="ph ph-twitter-logo"></i></a>
       </div>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="#">Privacy Policy</a>
+      </nav>
     </div>
     <p>&copy; 2025 Marks Abuto. All Rights Reserved.</p>
   </footer>
 
-  <script>
-    // Animation Effects
-    const fadeElements = document.querySelectorAll('.fade-in, .fade-up');
-    window.addEventListener('scroll', () => {
-      fadeElements.forEach(el => {
-        if (el.getBoundingClientRect().top < window.innerHeight) {
-          el.classList.add('visible');
-        }
-      });
-    });
-  </script>
+  <button id="scroll-top">⬆️</button>
 
 </body>
 
 </html>
-
+<!-- ====== End of HTML Document ====== -->
