@@ -1,15 +1,15 @@
-# Ignore system files
+# System Files
 .DS_Store
 Thumbs.db
 
-# Ignore Node and dependency folders (if added in future)
-node_modules/
-
-# Ignore logs
+# Logs
 *.log
 
-# Ignore env files (if you add API keys in future)
+# Dependency Folders (if added in future)
+node_modules/
+
+# Environment files
 .env
 
-# Ignore VSCode settings
+# VS Code settings
 .vscode/

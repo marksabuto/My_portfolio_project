@@ -10,6 +10,7 @@ menuToggle.addEventListener('click', () => {
 const scrollBtn = document.getElementById('scroll-top');
 
 window.addEventListener('scroll', () => {
+  // Show scroll button
   if (window.pageYOffset > 300) {
     scrollBtn.style.display = 'block';
   } else {
@@ -25,6 +26,7 @@ window.addEventListener('scroll', () => {
   });
 });
 
+// Scroll to top behavior
 scrollBtn.addEventListener('click', () => {
   window.scrollTo({
     top: 0,

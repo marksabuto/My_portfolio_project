@@ -1,13 +1,13 @@
 # 🌐 Marks Alvin Abuto - Personal Portfolio Website
 
 Welcome to my official **Portfolio Website!**  
-This website showcases my skills, projects, services, and contact details in an interactive, modern, and mobile-friendly design.
+A fully interactive, professional, and SEO-optimized website showcasing my skills, projects, and services as a **Software Engineer & AI Enthusiast.**
 
 ---
 
 ## 🚀 Live Demo
 
-🔗 **View Website:**  
+🔗 **Visit Website:**  
 [https://abutomarks.netlify.app/](https://abutomarks.netlify.app/)
 
 📂 **Source Code:**  
@@ -21,19 +21,20 @@ This website showcases my skills, projects, services, and contact details in an 
 My_portfolio_project/
 ├── index.html           → Home Page (About, Skills, Education, CTA)
 ├── services.html        → Services, Interests & Why Hire Me
-├── projects.html        → Projects Showcase with Tech Stack, Source Code, Demo
-├── contact.html         → Contact Page with Working Form
+├── projects.html        → Projects Showcase (Detailed descriptions, tech stack)
+├── contact.html         → Contact Page with Working Form (Formspree)
 ├── styles.css           → Global Styles, Animations, Layout
-├── main.js              → JavaScript (Menu, Scroll, Animations)
-├── favicon.ico          → Website Icon (Optional, Recommended)
-├── images/              → Social Icons & Project Image
+├── main.js              → JavaScript (Mobile menu, animations, scroll-to-top)
+├── favicon.ico          → Website Icon (Optional)
+├── .gitignore           → Git Ignore File
+├── images/              → All project images & social icons
 │   ├── linkedin.png     → LinkedIn Logo
 │   ├── github.png       → GitHub Logo
 │   ├── twitter.png      → Twitter Logo
 │   ├── portfolio.png    → Portfolio Icon
-│   └── portfolio.jpg    → Portfolio Project Image
-├── .gitignore           → Git Ignore file
+│   └── portfolio.jpg    → Project Preview Image
 └── README.md            → Project Documentation & Instructions
+
 
 
 ---
@@ -46,12 +47,12 @@ My_portfolio_project/
 ✅ Modern Mobile Navigation  
 ✅ Call-To-Action Buttons  
 ✅ Working Contact Form (Formspree Integrated)  
-✅ Technology stack labels on all projects  
-✅ SEO optimized meta tags  
+✅ Technology stack labels on projects  
+✅ Strong SEO meta & keywords  
 ✅ Scroll-to-top button  
-✅ Brand personality storytelling  
-✅ Clear social links & footer navigation  
-✅ Optimized for performance & accessibility
+✅ Brand storytelling in About section  
+✅ Accessible navigation & labels  
+✅ Improved performance & engagement
 
 ---
 
@@ -65,6 +66,7 @@ My_portfolio_project/
 
 ---
 
+## 💡 How to Run Locally
 
 
 📩 Contact Info
@@ -73,5 +75,7 @@ Marks Alvin Abuto
 📞 Phone: +254 715 341 602
 📍 Nairobi, Kenya
 
-⭐ Special Note
-This website was built as part of a learning and professional development journey. Feedback & Collaboration are welcome!
+Social Links: LinkedIn | GitHub | Twitter
+
+📝 License
+This project is open-source. You are free to fork, customize, and use it for personal learning or portfolio building.
